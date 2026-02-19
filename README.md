@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Practical lesson pz-MQTT  
 # Розгортання та налаштування MQTT-брокера  
 
@@ -61,3 +62,38 @@ docker compose up
 [MQTT with Postman](https://learning.postman.com/docs/sending-mqtt-messages/intro-to-mqtt/)
 
 [NGINX API Gateway](https://docs.nginx.com/nginx/admin-guide/api-gateway/)
+=======
+@"
+# Practical Work: MQTT Broker Deployment
+
+## Objective
+Deploy and configure an MQTT broker and demonstrate Publish/Subscribe functionality.
+
+## Technologies Used
+- Eclipse Mosquitto
+- Docker
+- MQTT protocol
+- Postman (MQTT client)
+
+## How to Run
+
+cd broker
+docker compose up -d
+
+Check container:
+docker ps
+
+## MQTT Concepts
+
+Topic – logical channel (example: test/topic)
+
+Publish – sending a message to a topic
+
+Subscribe – receiving messages from a topic
+
+QoS Levels:
+0 – At most once
+1 – At least once
+2 – Exactly once
+"@ | Set-Content README.md
+>>>>>>> 4a832b8 (feat: deploy MQTT broker with Docker and test publish/subscribe)
