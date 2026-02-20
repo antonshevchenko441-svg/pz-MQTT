@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Practical lesson pz-MQTT  
 # Розгортання та налаштування MQTT-брокера  
 
@@ -64,6 +65,8 @@ docker compose up
 [NGINX API Gateway](https://docs.nginx.com/nginx/admin-guide/api-gateway/)
 =======
 @"
+=======
+>>>>>>> eb8c689 (feat: add MQTT broker with Docker)
 # Practical Work: MQTT Broker Deployment
 
 ## Objective
@@ -95,5 +98,21 @@ QoS Levels:
 0 – At most once
 1 – At least once
 2 – Exactly once
+<<<<<<< HEAD
 "@ | Set-Content README.md
 >>>>>>> 4a832b8 (feat: deploy MQTT broker with Docker and test publish/subscribe)
+=======
+
+## Project Structure
+
+```
+pz-MQTT
+├── broker/
+│   ├── docker-compose.yml
+│   └── mosquitto.conf
+├── pz-MQTT/
+│   └── broker/
+│       └── mosquitto.conf/
+└── screenshots/
+```
+>>>>>>> eb8c689 (feat: add MQTT broker with Docker)
